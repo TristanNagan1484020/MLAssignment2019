@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_key_file [
+   <!ELEMENT feature_key_file (comments, feature+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT feature (name, description?, is_sequential, parallel_dimensions)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+   <!ELEMENT is_sequential (#PCDATA)>
+   <!ELEMENT parallel_dimensions (#PCDATA)>
+]>
+
+<feature_key_file>
+
+   <comments></comments>
+
+	<feature>
+		<name>Power Spectrum Overall Standard Deviation</name>
+		<description>A measure of the power of different frequency components.
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>256</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Spectral Flux Overall Standard Deviation</name>
+		<description>A measure of the amount of spectral change in a signal. Found by calculating the change in the magnitude spectrum from frame to frame.
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>1</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Beat Histogram Overall Standard Deviation</name>
+		<description>A histogram showing the relative strength of different rhythmic periodicities (tempi) in a signal. Found by calculating the auto-correlation of the RMS.
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>171</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>MFCC Overall Standard Deviation</name>
+		<description>MFCC calculations based upon Orange Cow code
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>13</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Power Spectrum Overall Average</name>
+		<description>A measure of the power of different frequency components.
+This is the overall average over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>256</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Spectral Flux Overall Average</name>
+		<description>A measure of the amount of spectral change in a signal. Found by calculating the change in the magnitude spectrum from frame to frame.
+This is the overall average over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>1</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Beat Histogram Overall Average</name>
+		<description>A histogram showing the relative strength of different rhythmic periodicities (tempi) in a signal. Found by calculating the auto-correlation of the RMS.
+This is the overall average over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>171</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>MFCC Overall Average</name>
+		<description>MFCC calculations based upon Orange Cow code
+This is the overall average over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>13</parallel_dimensions>
+	</feature>
+</feature_key_file>
