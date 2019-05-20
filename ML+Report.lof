@@ -1,0 +1,16 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Gaussian NB confusion matrix for MFCC\relax }}{7}{figure.caption.3}
+\contentsline {figure}{\numberline {2}{\ignorespaces Gaussian NB confusion matrix for Compactness\relax }}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {3}{\ignorespaces Gaussian NB confusion matrix for Spectral Flux\relax }}{8}{figure.caption.5}
+\contentsline {figure}{\numberline {4}{\ignorespaces Gaussian NB confusion matrix for Peak Speactral Smoothness\relax }}{9}{figure.caption.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces Gaussian NB confusion matrix for Method of Moments\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {6}{\ignorespaces Gaussian NB confusion matrix for Strongest Frequency Via FFT Maximum\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {7}{\ignorespaces Gaussian NB confusion matrix for Strongest Frequency Via Root Mean Squared\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {8}{\ignorespaces Gaussian NB confusion matrix for Strongest Frequency for All Features\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {9}{\ignorespaces Occurences of different key signatures in the raw MIDI data\relax }}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {10}{\ignorespaces Discrete Na\IeC {\"\i }ve Bayes on a random test set (two composers). First result.\relax }}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Discrete Na\IeC {\"\i }ve Bayes on a random test set (two composers). Second result.\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {12}{\ignorespaces Discrete Na\IeC {\"\i }ve Bayes on a random test set (four composers).\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {13}{\ignorespaces Discrete Na\IeC {\"\i }ve Bayes on an equalized test set (two composers).\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {14}{\ignorespaces Discrete Na\IeC {\"\i }ve Bayes on an equalized test set (four composers).\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {15}{\ignorespaces Logistic Regression for aplha = 0.1.\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces Logistic Regression for aplha = 1.0.\relax }}{16}{figure.caption.23}
